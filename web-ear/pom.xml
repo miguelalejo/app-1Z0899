@@ -22,7 +22,6 @@
 				<version>${plugin.ear.version}</version>
 				<configuration>
 					<unpackTypes>war,ejb</unpackTypes>
-					<display-name>ocejwcd</display-name>
 					<modules>
 						<webModule>
 							<groupId>ec.ocejwcd</groupId>

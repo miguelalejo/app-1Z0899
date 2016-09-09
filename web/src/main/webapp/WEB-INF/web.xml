@@ -8,4 +8,22 @@
     <welcome-file-list>
         <welcome-file>index.jsp</welcome-file>
     </welcome-file-list>
+    <servlet>
+        <servlet-name>internalname1</servlet-name>
+        <servlet-class>ec.ocejwcd.cap2.Servlet1</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>color</servlet-name>
+        <servlet-class>ec.ocejwcd.cap3.ColorServlet</servlet-class>
+    </servlet>
+    
+
+    <servlet-mapping>
+        <servlet-name>internalname1</servlet-name>
+        <url-pattern>/public1</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>color</servlet-name>
+        <url-pattern>server.color.com</url-pattern>
+    </servlet-mapping>
 </web-app>
