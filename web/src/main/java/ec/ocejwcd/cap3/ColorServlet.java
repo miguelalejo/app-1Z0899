@@ -17,9 +17,10 @@ public class ColorServlet extends HttpServlet {
 
     public void doPost(HttpServletRequest request,HttpServletResponse response) throws IOException, ServletException {
         String color = request.getParameter("color");
+        String formato = request.getParameter("formato");
         Writer writer = response.getWriter();
         writer.write(request.getMethod());
-        writer.write(color);
+        writer.write(color+"-"+formato);
 
         List<String> estilos = new ArrayList<String>();
         estilos.add("MODERNO");
@@ -31,10 +32,26 @@ public class ColorServlet extends HttpServlet {
         dispatcher.forward(request,response);
     }
 
-    public void doGet(HttpServletRequest request,HttpServletResponse response) throws IOException {
+    public void doGet(HttpServletRequest request,HttpServletResponse response) throws IOException, ServletException {
         String color = request.getParameter("color");
+        String formato = request.getParameter("formato");
         Writer writer = response.getWriter();
         writer.write(request.getMethod());
-        writer.write(color);
+        writer.write(color+"-"+formato);
+        List<String> estilos = new ArrayList<String>();
+        estilos.add("MODERNO");
+        estilos.add("ORIGINAL");
+        estilos.add("ANTIGUO");
+        request.setAttribute("estilos",estilos);
+        RequestDispatcher dispatcher = request.getRequestDispatcher("result.jsp");
+        dispatcher.include(request, response);
+    }
+
+    public void doPut(HttpServletRequest request,HttpServletResponse response) throws IOException{
+        String[] listaTamanios=request.getParameterValues("tamanio");
+        Writer writer = response.getWriter();
+        for(int i=0;i<listaTamanios.length;i++){
+            writer.write("TAMANIO:"+listaTamanios[i]);
+        }
     }
 }

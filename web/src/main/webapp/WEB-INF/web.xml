@@ -8,6 +8,14 @@
     <welcome-file-list>
         <welcome-file>index.jsp</welcome-file>
     </welcome-file-list>
+    <context-param>
+        <param-name>appemail</param-name>
+        <param-value>appmike@hotmail.com</param-value>
+    </context-param>
+    <context-param>
+        <param-name>bd</param-name>
+        <param-value>ORACLE</param-value>
+    </context-param>
     <servlet>
         <servlet-name>internalname1</servlet-name>
         <servlet-class>ec.ocejwcd.cap2.Servlet1</servlet-class>
@@ -16,8 +24,43 @@
         <servlet-name>color</servlet-name>
         <servlet-class>ec.ocejwcd.cap3.ColorServlet</servlet-class>
     </servlet>
-    
+    <servlet>
+        <servlet-name>tamanio</servlet-name>
+        <servlet-class>ec.ocejwcd.cap3.TamanioServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>parametroRequest</servlet-name>
+        <servlet-class>ec.ocejwcd.cap4.ParametroRequest</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>parametroServlet</servlet-name>
+        <servlet-class>ec.ocejwcd.cap5.ParametroServlet</servlet-class>
+        <init-param>
+            <param-name>email</param-name>
+            <param-value>likewecare@wickedlysmart.com</param-value>
+        </init-param>
+        <init-param>
+            <param-name>contacto</param-name>
+            <param-value>0255220222</param-value>
+        </init-param>
+        <init-param>
+            <param-name>IP</param-name>
+            <param-value>12354</param-value>
+        </init-param>
+    </servlet>
+    <servlet>
+        <servlet-name>parametroContexto</servlet-name>
+        <servlet-class>ec.ocejwcd.cap5.ParametroContexto</servlet-class>
+        <init-param>
+            <param-name>email</param-name>
+            <param-value>context@cs</param-value>
+        </init-param>
 
+    </servlet>
+    <servlet>
+        <servlet-name>dispatchPage</servlet-name>
+        <jsp-file>/paginas/disp/dispatcher.jsp</jsp-file>
+    </servlet>
     <servlet-mapping>
         <servlet-name>internalname1</servlet-name>
         <url-pattern>/public1</url-pattern>
@@ -26,4 +69,52 @@
         <servlet-name>color</servlet-name>
         <url-pattern>server.color.com</url-pattern>
     </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>tamanio</servlet-name>
+        <url-pattern>server.tamanio.com</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>parametroRequest</servlet-name>
+        <url-pattern>/parametroRequest</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>parametroServlet</servlet-name>
+        <url-pattern>/parametroServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>parametroContexto</servlet-name>
+        <url-pattern>/parametroContexto</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>dispatchPage</servlet-name>
+        <url-pattern>/dispatchPage</url-pattern>
+    </servlet-mapping>
+
+    <!--<listener>
+        <listener-class>ec.ocejwcd.cap5.ManejadroServletContext</listener-class>
+    </listener>
+    <listener>
+        <listener-class>ec.ocejwcd.cap5.ManejadorServletContextAttributeListener</listener-class>
+    </listener>
+    <listener>
+        <listener-class>ec.ocejwcd.cap5.ManejadorHttpSessionListener</listener-class>
+    </listener>
+    <listener>
+        <listener-class>ec.ocejwcd.cap5.ManejadorServletRequestListener</listener-class>
+    </listener>
+    <listener>
+        <listener-class>ec.ocejwcd.cap5.ManejadorServletRequestAttributeListener</listener-class>
+    </listener>
+    <listener>
+        <listener-class>ec.ocejwcd.cap5.ManejadorHttpSessionAttributeListener</listener-class>
+    </listener>-->
+    <listener>
+        <listener-class>ec.ocejwcd.cap5.ManejadorServletContextListener</listener-class>
+    </listener>
+
+    <context-param>
+        <param-name>dog</param-name>
+        <param-value>GUAU GUAU</param-value>
+    </context-param>
+
 </web-app>

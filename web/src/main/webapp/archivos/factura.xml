@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<autorizacion>
+<estado>AUTORIZADO</estado>
+<numeroAutorizacion>0509201614140617903763380010271103731</numeroAutorizacion>
+<fechaAutorizacion>2016-09-05T14:14:06-05:00</fechaAutorizacion>
+<ambiente>PRODUCCIÓN</ambiente>
+<comprobante><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<factura id="comprobante" version="1.0.0">
+  <infoTributaria>
+    <ambiente>2</ambiente>
+    <tipoEmision>1</tipoEmision>
+    <razonSocial>APARTAMENTOS Y HOTELES ECUATORIANOS APARTEC SA</razonSocial>
+    <nombreComercial>HOTEL MERCURE ALAMEDA QUITO</nombreComercial>
+    <ruc>1790376338001</ruc>
+    <claveAcceso>0509201601179037633800120010220001758220419777016</claveAcceso>
+    <codDoc>01</codDoc>
+    <estab>001</estab>
+    <ptoEmi>022</ptoEmi>
+    <secuencial>000175822</secuencial>
+    <dirMatriz>Ramón Roca E4-122 y Av. Amazonas</dirMatriz>
+  </infoTributaria>
+  <infoFactura>
+    <fechaEmision>05/09/2016</fechaEmision>
+    <contribuyenteEspecial>5368</contribuyenteEspecial>
+    <obligadoContabilidad>SI</obligadoContabilidad>
+    <tipoIdentificacionComprador>05</tipoIdentificacionComprador>
+    <razonSocialComprador>MIGEL  PONCE PROA?O</razonSocialComprador>
+    <identificacionComprador>1002576302</identificacionComprador>
+    <totalSinImpuestos>1.30</totalSinImpuestos>
+    <totalDescuento>0.00</totalDescuento>
+    <totalConImpuestos>
+      <totalImpuesto>
+        <codigo>2</codigo>
+        <codigoPorcentaje>0</codigoPorcentaje>
+        <descuentoAdicional>0</descuentoAdicional>
+        <baseImponible>1.30</baseImponible>
+        <valor>0.00</valor>
+      </totalImpuesto>
+    </totalConImpuestos>
+    <propina>0.00</propina>
+    <importeTotal>1.30</importeTotal>
+    <moneda>DOLAR</moneda>
+  </infoFactura>
+  <detalles>
+    <detalle>
+      <codigoPrincipal>6488</codigoPrincipal>
+      <codigoAuxiliar>0</codigoAuxiliar>
+      <descripcion>Pan Manjar</descripcion>
+      <cantidad>1</cantidad>
+      <precioUnitario>1.30</precioUnitario>
+      <descuento>0.00</descuento>
+      <precioTotalSinImpuesto>1.30</precioTotalSinImpuesto>
+      <impuestos>
+        <impuesto>
+          <codigo>2</codigo>
+          <codigoPorcentaje>0</codigoPorcentaje>
+          <tarifa>0</tarifa>
+          <baseImponible>1.30</baseImponible>
+          <valor>0.00</valor>
+        </impuesto>
+      </impuestos>
+    </detalle>
+  </detalles>
+  <infoAdicional>
+    <campoAdicional nombre="DIRECCION">DIEGO MENDEZ  Y HULLOA</campoAdicional>
+    <campoAdicional nombre="FECHA CIERRE">2016-09-05T14:11:44</campoAdicional>
+    <campoAdicional nombre="TELEFONO">2569724</campoAdicional>
+    <campoAdicional nombre="CHECK">2851</campoAdicional>
+    <campoAdicional nombre="CAJERO">345. Andrea Heredia</campoAdicional>
+    <campoAdicional nombre="TRANSACCION">314809</campoAdicional>
+    <campoAdicional nombre="EFECTIVO">1.300</campoAdicional>
+  </infoAdicional>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature869094">
+<ds:SignedInfo Id="Signature-SignedInfo111227">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></ds:SignatureMethod>
+<ds:Reference Id="SignedPropertiesID868149" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature869094-SignedProperties913189">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>YkfZlGLiGGiYt1ctZaRPWBpwx30=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1516750">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>bZSDqAIn5cUDzdmKJcJ5gHFFvlE=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-182245" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>+o+v6KGUE85nuOnptmNsAT3/H10=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue49058">
+It15FyJlLyB04y+SG550GvfyoiN28NUd8yukqbCkG+pPCkZKFyy1KetLj74jkc7iCKakFdnSiHmj
+9Cz/EfIXZB3/mxT1K2Ktk2nwR6gNelEZqwYhfe3Xrc3mHjS9ahzA01X4e1MQaFtUcy8zY74N67zc
+lAAiP6m+yycaxDRcDGhHK+TutNIYqaWidsFl+HUiHtQqM5bIAB9RiySM6QT/YDlpP6KLCDWfA4fS
+f3N1voK0zL/rwMNejpmHXnLb/cfVcVojS4CJ7wC0DcRxLbpWspdrJBMpYyPMtzicz4NwLs7JE59n
++DW51Dik5+aEDqEFP0Hw+meoUi3StxzspMaOtQ==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1516750">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIJujCCCKKgAwIBAgIETV5ChTANBgkqhkiG9w0BAQsFADCBkzELMAkGA1UEBhMCRUMxGzAZBgNV
+BAoTElNFQ1VSSVRZIERBVEEgUy5BLjEwMC4GA1UECxMnRU5USURBRCBERSBDRVJUSUZJQ0FDSU9O
+IERFIElORk9STUFDSU9OMTUwMwYDVQQDEyxBVVRPUklEQUQgREUgQ0VSVElGSUNBQ0lPTiBTVUIg
+U0VDVVJJVFkgREFUQTAeFw0xNDEyMjIxNTI0MTlaFw0xNjEyMjIxNTU0MTlaMH0xCzAJBgNVBAYT
+AkVDMRswGQYDVQQKExJTRUNVUklUWSBEQVRBIFMuQS4xMDAuBgNVBAsTJ0VOVElEQUQgREUgQ0VS
+VElGSUNBQ0lPTiBERSBJTkZPUk1BQ0lPTjEfMB0GA1UEAxMWTWFyaXNvbCBNb3NxdWVyYSBLYXJh
+bTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKpPwk6zKWFHmdXTjlRc5gy/1H3EKJIi
+vzH2QsrMaTeRmFo+JC+8ZUu5FhSJxtIu1VFwO/tkc6k+x3zqAoEFXnQibr8YqOcBd4AELIu5i5eq
+Zxek81yA3U7kefeuhrxkQMHZGK5DRpMUQ3ZJVmwjJ175e3dOvOZk2rI4qmj+TylTlP7c6EmQSy9h
+EDjxl3xeQkdaokaCC24dupZgjthxVwteD76TQHC8ESO2LJa0sWOFsC0zn+qBRIfdw5/yWjaKgA+S
+E+DmAkE7QIKlwxGdMUAPFTJzzSTDX+s6EPvOt+p5yPcRDecGAcUQhH6MQC26owKD5w7AjLZBx4e5
+sj+i7P0CAwEAAaOCBikwggYlMAsGA1UdDwQEAwIGwDBZBggrBgEFBQcBAQRNMEswSQYIKwYBBQUH
+MAGGPWh0dHA6Ly9vY3NwZ3cuc2VjdXJpdHlkYXRhLm5ldC5lYy9lamJjYS9wdWJsaWN3ZWIvc3Rh
+dHVzL29jc3AwgcoGA1UdIASBwjCBvzA/BgorBgEEAYKmcgIKMDEwLwYIKwYBBQUHAgIwIxohQ2Vy
+dGlmaWNhZG8gZGUgTWllbWJybyBkZSBFbXByZXNhMHwGCisGAQQBgqZyAgQwbjBsBggrBgEFBQcC
+ARZgaHR0cHM6Ly93d3cuc2VjdXJpdHlkYXRhLm5ldC5lYy9sZXllc19ub3JtYXRpdmFzL1BvbGl0
+aWNhcyBkZSBDZXJ0aWZpY2FkbyBNaWVtYnJvIGRlIEVtcHJlc2EucGRmMEAGCisGAQQBgqZyAwoE
+MhMwQVBBUlRBTUVOVE9TIFkgSE9URUxFUyBFQ1VBVE9SSUFOT1MgQVBBUlRFQyBTLkEuMB0GCisG
+AQQBgqZyAwsEDxMNMTc5MDM3NjMzODAwMTAaBgorBgEEAYKmcgMBBAwTCjE3MDc2NzMwNzMwFwYK
+KwYBBAGCpnIDAgQJEwdNYXJpc29sMBgGCisGAQQBgqZyAwMEChMITW9zcXVlcmEwFQYKKwYBBAGC
+pnIDBAQHEwVLYXJhbTAhBgorBgEEAYKmcgMFBBMTEUFwb2RlcmFkYSBHZW5lcmFsMCwGCisGAQQB
+gqZyAwcEHhMcUmFtb24gUm9jYSBFNC0xMjIgeSBBbWF6b25hczAWBgorBgEEAYKmcgMiBAgTBjE3
+MDMzNTAdBgorBgEEAYKmcgMIBA8TDTU5My0yLTI5OTQwMTkwFQYKKwYBBAGCpnIDCQQHEwVRdWl0
+bzAXBgorBgEEAYKmcgMMBAkTB0VjdWFkb3IwIQYKKwYBBAGCpnIDIAQTExEwMDItMDAxLTAwMDAw
+NTMxMDATBgorBgEEAYKmcgMhBAUTA1BGWDAnBgNVHREEIDAegRxnZXJlbmNpYUBtZXJjdXJlcXVp
+dG8uY29tLmVjMIICeQYDVR0fBIICcDCCAmwwggJooIICZKCCAmCGPWh0dHA6Ly9vY3NwZ3cuc2Vj
+dXJpdHlkYXRhLm5ldC5lYy9lamJjYS9wdWJsaWN3ZWIvc3RhdHVzL29jc3CGgdRsZGFwOi8vZGly
+ZWN0LnNlY3VyaXR5ZGF0YS5uZXQuZWMvY249Q1JMNzAsY249QVVUT1JJREFEJTIwREUlMjBDRVJU
+SUZJQ0FDSU9OJTIwU1VCJTIwU0VDVVJJVFklMjBEQVRBLG91PUVOVElEQUQlMjBERSUyMENFUlRJ
+RklDQUNJT04lMjBERSUyMElORk9STUFDSU9OLG89U0VDVVJJVFklMjBEQVRBJTIwUy5BLixjPUVD
+P2NlcnRpZmljYXRlUmV2b2NhdGlvbkxpc3Q/YmFzZYaBnmh0dHBzOi8vZGlyZWN0LnNlY3VyaXR5
+ZGF0YS5uZXQuZWMvfmNybC9hdXRvcmlkYWRfZGVfY2VydGlmaWNhY2lvbl9zdWJfc2VjdXJpdHlf
+ZGF0YV9lbnRpZGFkX2RlX2NlcnRpZmljYWNpb25fZGVfaW5mb3JtYWNpb25fY3VyaXR5X2RhdGFf
+cy5hLl9jX2VjX2NybGZpbGUuY3JspIGmMIGjMQswCQYDVQQGEwJFQzEbMBkGA1UEChMSU0VDVVJJ
+VFkgREFUQSBTLkEuMTAwLgYDVQQLEydFTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JN
+QUNJT04xNTAzBgNVBAMTLEFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNVQiBTRUNVUklUWSBE
+QVRBMQ4wDAYDVQQDEwVDUkw3MDArBgNVHRAEJDAigA8yMDE0MTIyMjE1MjQxOVqBDzIwMTYxMjIy
+MTU1NDE5WjAfBgNVHSMEGDAWgBT3L0zgdedio3iWWwa2LnE7zGw/kDAdBgNVHQ4EFgQUsDQLGmpu
+d/8QeUaRe6RHDV0PQy8wCQYDVR0TBAIwADAZBgkqhkiG9n0HQQAEDDAKGwRWOC4xAwIDqDANBgkq
+hkiG9w0BAQsFAAOCAQEAIQLSfKyVwPjls2XgpkkGIhC4hSb4iCc0CMhMX7l0rl1V1cq7MzBwaGUs
+gc2Ck8qCqoqt1HUUmUQtNpmZZw8fHkPqIb/8afHlzqVoSetX518p5haKh+rR60Dk+vGBtelVpH+f
+oOx3WIs2OYM0BNSJgOAbw1Jk1lUSREO8ewIhitsd3/eovICTX3XAXyiNjqCyvGRg3XUCA0JdJSae
+nDN05cnFEWqh/GMJYVJGzE/pLL+b3ZJCqdEzTsuqBD7Tx3e8Xk3S2gIP9AOVyGZ0NJOO+2TAEUqY
+ymuSAHZ9STUwV5gtG7CLWG0txkb7POZ2vSX/8f9NbnJaJeIOODrV9xrHIQ==
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+qk/CTrMpYUeZ1dOOVFzmDL/UfcQokiK/MfZCysxpN5GYWj4kL7xlS7kWFInG0i7VUXA7+2RzqT7H
+fOoCgQVedCJuvxio5wF3gAQsi7mLl6pnF6TzXIDdTuR5966GvGRAwdkYrkNGkxRDdklWbCMnXvl7
+d0685mTasjiqaP5PKVOU/tzoSZBLL2EQOPGXfF5CR1qiRoILbh26lmCO2HFXC14PvpNAcLwRI7Ys
+lrSxY4WwLTOf6oFEh93Dn/JaNoqAD5IT4OYCQTtAgqXDEZ0xQA8VMnPNJMNf6zoQ+8636nnI9xEN
+5wYBxRCEfoxALbqjAoPnDsCMtkHHh7myP6Ls/Q==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature869094-Object252609"><etsi:QualifyingProperties Target="#Signature869094"><etsi:SignedProperties Id="Signature869094-SignedProperties913189"><etsi:SignedSignatureProperties><etsi:SigningTime>2016-09-05T14:14:16-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>S2LNYCY1bBxzs14hx/FAh4hDSzI=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AUTORIDAD DE CERTIFICACION SUB SECURITY DATA,OU=ENTIDAD DE CERTIFICACION DE INFORMACION,O=SECURITY DATA S.A.,C=EC</ds:X509IssuerName><ds:X509SerialNumber>1298023045</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-182245"><etsi:Description>SATCOM Servicios Profesionales</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>]]></comprobante>
+<mensajes/>
+</autorizacion>
+

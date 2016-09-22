@@ -7,6 +7,10 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.Writer;
 import java.util.Random;
 
 
@@ -25,12 +29,34 @@ public class ClicloVidaServlet extends HttpServlet {
         valor = random.nextInt();
         LOGGER.info("INIT:"+valor);
     }
-    public void doGet(HttpServletRequest request,HttpServletResponse response){
+    public void doGet(HttpServletRequest request,HttpServletResponse response) throws IOException {
         LOGGER.info("DO GET:"+valor);
+        Writer writer = response.getWriter();
+        writer.write("DO GET");
     }
 
-    public void doPost(HttpServletRequest request,HttpServletResponse response){
+    public void doHead(HttpServletRequest request,HttpServletResponse response) throws IOException {
+        LOGGER.info("DO HEAD:"+valor);
+        Writer writer = response.getWriter();
+        writer.write("DO HEAD");
+    }
+
+    public void doPut(HttpServletRequest request,HttpServletResponse response) throws IOException {
+        LOGGER.info("DO PUT:"+valor);
+        Writer writer = response.getWriter();
+        writer.write("DO PUT");
+        String  thisLine = null;
+        BufferedReader br = new BufferedReader(new InputStreamReader(request.getInputStream()));
+        while ((thisLine = br.readLine()) != null) {
+            writer.write(thisLine);
+        }
+    }
+
+    public void doPost(HttpServletRequest request,HttpServletResponse response) throws IOException {
         LOGGER.info("DO POST:"+valor);
+        Writer writer = response.getWriter();
+        writer.write("DO POST");
+
     }
 
     public void destroy(){
